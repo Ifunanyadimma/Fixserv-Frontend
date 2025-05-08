@@ -30,6 +30,7 @@
 
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
+import Landing from "./Pages/Landing";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
     
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/landing" element={<Landing />} />
         {/* You can add more routes later like /about or /contact */}
       </Routes>
   
