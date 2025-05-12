@@ -5,8 +5,8 @@ const Location = () => {
 
     return (
       <section className="py-8 px-4">
-        <h2 className="text-2xl font-semibold mb-4 text-[#110000C2]">Available Locations</h2>
-        <button className="bg-[#779BE7] text-white w-44 h-14 rounded-full mb-4">
+        <h2 className="text-2xl font-semibold mb-4 text-[#110000C2] items-center justify-center">Available Locations</h2>
+        <button className="flex bg-[#779BE7] text-white w-44 h-14 rounded-full items-center justify-center mb-4">
             <img src={LocationImage} alt='location' className='w-6 h-6' />
             Location
         </button>

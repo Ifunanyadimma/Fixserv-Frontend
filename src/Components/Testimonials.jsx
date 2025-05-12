@@ -32,17 +32,17 @@ const Testimonials = () => {
         {testimonials.map((t, idx) => (
           <div
             key={idx}
-            className="bg-[#A1B7F2] text-[#ECF1FC] rounded-xl p-6 w-48 h-52 shadow-md"
+            className="bg-[#A1B7F2] text-[#ECF1FC] items-center justify-items-center rounded-xl p-6 w-68 h-80 shadow-md"
           >
-            <div className="flex items-center gap-3 mb-3">
+            <div className="flex items-center gap-4 mb-10">
               <img
                 src={t.image}
                 alt={t.name}
-                className="w-10 h-10 rounded-full"
+                className="w-20 h-20 rounded-full bg-[#081f5b]"
               />
               <h4 className="font-semibold">{t.name}</h4>
             </div>
-            <p className="text-sm">{t.text}</p>
+            <p className="text-md justify-items-center ">{t.text}</p>
           </div>
         ))}
       </div>

@@ -5,23 +5,23 @@ import ArtisansImage from '../assets/uploads/Artisans.png';
 
 const HeroBooking = () => {
   return (
-    <section className="w-full min-h-screen flex items-center px-6 pt-6 pb-0 bg-white">
+    <section className="w-full min-h-screen flex justify-center items-center px-6 pt-6 pb-0 -mt-28 bg-white">
       <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center">
         {/* Left Side - Text Content */}
         <div className="w-full md:w-1/2 space-y-6">
-          <h1 className="text-4xl font-bold text-left text-[#110000C2] leading-snug">
-            Digital <span className="text-[#779BE7]">marketplace that<br />connects users with</span><br />
-            professional artisans
+          <h1 className="text-6xl font-bold text-left text-[#110000C2] leading-snug">
+            Digital <span className="text-[#779BE7]">marketplace <br />that connects users</span><br />
+            with professional artisans
           </h1> <br/>
 
-          <p className='text-left text-lg text-[#779BE7]'>
+          <p className='text-left text-3xl text-[#779BE7]'>
             Provides a seamless, reliable marketplace<br/>connecting customers with verified<br/>
             professional gadget repairers.
         </p> <br />
 
-          <div className="flex w-full max-w-md h-[47px] rounded-2xl items-center">
+          <div className="flex w-full max-w-md h-[57px] rounded-2xl items-center">
             
-            <button className="text-white px-6 h-full w-[220px] bg-[#7A9DF7] rounded-2xl">
+            <button className="text-white px-6 h-full w-[250px] bg-[#7A9DF7] rounded-2xl">
               Book a Repair
             </button>
           </div>
@@ -32,17 +32,17 @@ const HeroBooking = () => {
           <img
             src={DigitalImage}
             alt="Digital repair"
-            className="w-40 h-45 rounded-lg absolute top-0 left-20"
+            className="w-64 h-72 rounded-lg absolute -top-24 left-20"
           />
           <img
             src={ProfessionalImage}
             alt="Professional repair"
-            className="w-40 h-45 rounded-lg absolute top-48 left-20"
+            className="w-64 h-72 rounded-lg absolute top-55 left-20"
           />
           <img
             src={ArtisansImage}
             alt="Artisans repair"
-            className="w-40 h-72 rounded-lg absolute top-10 left-64"
+            className="w-[260px] h-[560px] rounded-lg -top-20 absolute right-5"
           />
         </div>
       </div>
@@ -51,3 +51,4 @@ const HeroBooking = () => {
 };
 
 export default HeroBooking
+
