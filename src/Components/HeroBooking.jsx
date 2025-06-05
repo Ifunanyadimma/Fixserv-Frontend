@@ -5,7 +5,7 @@ import ArtisansImage from '../assets/uploads/Artisans.png';
 
 const HeroBooking = () => {
   return (
-    <section className="w-full min-h-screen flex justify-center items-center px-6 pt-6 pb-0 -mt-28 bg-white">
+    <section className="w-full min-h-screen flex justify-center items-center px-6 pt-60 pb-0 -mt-28 bg-white">
       <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row justify-between items-center">
         {/* Left Side - Text Content */}
         <div className="w-full md:w-1/2 space-y-6">

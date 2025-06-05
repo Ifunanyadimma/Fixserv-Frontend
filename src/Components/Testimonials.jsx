@@ -24,15 +24,25 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="bg-cover bg-center py-16 text-white">
-        <img src={Image} alt='bg-Image' className='bg-cover bg-center text-[#FFFFFF]' />
-      <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold">CLIENTS TESTIMONY</h2>
+      <div className="relative w-full h-[450px]">
+        <img
+          src={Image}
+          alt="bg-Image"
+          className="w-full h-full bg-cover"
+        />
+  
+      <div className="absolute inset-0 flex px-15 py-20">
+        <h2 className="text-5xl text-white">
+          CLIENTS TESTIMONY
+        </h2>
       </div>
-      <div className="flex justify-center gap-6 flex-wrap max-w-5xl mx-auto">
+     </div>
+
+      <div className="flex justify-center gap-20 flex-wrap max-w-5xl mx-auto">
         {testimonials.map((t, idx) => (
           <div
             key={idx}
-            className="bg-[#A1B7F2] text-[#ECF1FC] items-center justify-items-center rounded-xl p-6 w-68 h-80 shadow-md"
+            className="bg-[#A1B7F2] text-[#ECF1FC] items-center justify-items-center rounded-xl p-6 w-68 h-80 "
           >
             <div className="flex items-center gap-4 mb-10">
               <img
